@@ -1,0 +1,37 @@
+{"items":[
+    {
+        "category":"Bebidas",
+        "items":[
+            {
+                "name":"vino chile",
+                "descripcion":"Vino tinto originario de Chile, catalogado como uno de los mejores vinos del mundo",
+                "price":"$400.00",
+                "image":"vinos.jpg"
+            },{
+                "name":"tequila",
+                "descripcion":"Tequila originario de Guadalajara, con un delicioso sabor.",
+                "price":"$564.99",
+                "image":"tequila.jpg"
+            }
+            
+        ]
+    },
+    {
+        "category":"Desayunos",
+        "items":[
+            {
+                "name":"Chilaquiles",
+                "descripcion":"Chilaquiles rojos, acompañados de frjoles y un huevo.",
+                "price":"$120.00",
+                "image":"04.jpg"
+            },
+            {
+                "name":"Chilaquiles",
+                "descripcion":"Chilaquiles rojos, acompañados de frjoles y un huevo.",
+                "price":"$120.00",
+                "image":"05.jpg"
+            }
+        ]
+    } 
+    ]
+}

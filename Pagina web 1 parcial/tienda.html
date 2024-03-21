@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/broadsheet-ldo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bergante" rel="stylesheet">
+                
+    <title>Restaurante Kn Menu</title>
+</head>
+<body>
+
+    <div style="margin: 24px;">
+        <nav class="nav nvbar-ligth"
+        style="background-color: rgb(177, 89, 122);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color: rgb(14, 10, 10);font-family: 'Bergante', sans-serif;                          
+            ">Inicio</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropwn">
+        <ul class="nav navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="                                                                    font-family: 'Bergante', sans-serif;
+                color: rgb(14, 10, 10);
+                " >unidad 1</a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDrownMenuLink">
+                     <a class="dropdown-item" href="Perfil.html" >Perfil</a><br>
+                     <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                     <a class="dropdown-item" href="portada.html" >Tienda</a>
+                  </div> </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="                                                                    font-family: 'Bergante', sans-serif;
+                      color: rgb(14, 10, 10);
+                      ">unidad 2</a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDrownMenuLink">                                                                 
+                                                              
+                        <a class="dropdown-item" href="">Tienda pedido 1</a><br>
+                        <a class="dropdown-item" href="" >json</a><br>
+                        <a class="dropdown-item" href="">Tienda pedido 2</a>
+                     </div>
+                    </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="                                                                    font-family: 'Bergante', sans-serif;
+                              color: rgb(14, 10, 10);
+                               ">unidad 3</a>
+                               <div class="dropdown-menu" aria-labelledby="navbarDropwnMenuLink">
+                                  <a class="dropdown-item" href="" >Base de datos</a><br>
+                                  <a class="dropdown-item" href="">Peliculas</a><br>
+                                
+   
+                  </div>
+                </li>
+               </ul>
+               </div>
+           </div>
+       </nav>
+   </div>   
+   
+    
+   </body>
+    
+    <h1 style="text-align: center;">Menu del Restaurante Kn</h1>
+    <style>
+        img{
+            width: 100px;
+            height: auto;
+        } 
+        table, th,td{
+            font-family: 'Broadsheet LDO', sans-serif;
+             color: black ;                                 
+            border: 1px solid rgb(145, 52, 140);
+            text-align: left;
+            padding: 10px;
+        }
+        table{
+            width: 80%;
+            margin: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgb(174, 235, 240);
+            margin-left: 50px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(197, 176, 192);
+        }
+        tr:nth-child(odd){
+            background-color: rosybrown;
+        }
+        tr:hover{
+            background-color: aliceblue;
+        }
+        
+    </style>
+    <h1>Bebidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/vinos.jpg" alt="Vino Chile"></td>
+            <td><p>Vino tinto originario de Chile, catalogado como uno de los mejores vinos del mundo </p></td>
+            <td>$400.00-750ml</td>
+        </tr>
+        <tr>
+             <td>
+                <img src="img/tequila.jpg" alt="Tequila"></td>
+                <td><p>Tequila originario de Guadalajara, con un delicioso sabor.   </p></td>
+                <td>$564.99-700ml</td>
+        </tr>
+        <tr>
+              <td><img src="img/limonada.jpg" alt="Limonada"></td>
+              <td><p>Limonada fresca con los mejores productos.</p></td>
+              <td>$23.00</td>
+                </tr>
+                <tr>
+                    <td><img src="img/cerveza.jpg" alt="Cerveza"></td>
+                    <td><p>Cerveza ligera, refrescante y con un sabor estupendo.  </p></td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td><img src="img/cantaritos.jpg" alt="Cantaritos"></td>
+                    <td><p>Coctel a base de tequila mezclado con diversos jugos citricos  </p></td>
+                    <td>$220.00-1l</td>
+                </tr>
+                <tr>
+                    <td><img src="img/agua.jpg" alt="Agua"></td>
+                    <td><p> Agua natural fresca</p></td>
+                    <td>$20.00-1L</td>
+                </tr>
+    </table>
+
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/01.jpg" alt="Wafles"></td>
+            <td><p>Wafles con frutos rojos </p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+             <td>
+                <img src="img/02.jpg" alt="Omelette"></td>
+                <td><p>Omelette acompañado con verduras </p></td>
+                <td>$40</td>
+        </tr>
+        <tr>
+              <td><img src="img/03.jpg" alt="Yogurt de avena con fresas"></td>
+              <td><p>Yogurt acompañado de frutos rojos, avena, miel</p></td>
+              <td>$34</td>
+                </tr>
+                <tr>
+                    <td><img src="img/04.jpg" alt="Chilaquiles"></td>
+                    <td><p> Chiaquiles rojos con huevo </p></td>
+                    <td>$35</td>
+                      </tr>
+    
+                <tr>
+                    <td><img src="img/05.jpg" alt="Hot cakes"></td>
+                    <td><p>Hot cakes acompañado con frutas, y cajeta </p></td>
+                    <td>$38</td>
+                </tr>
+                <tr>
+                    <td><img src="img/06.jpg" alt="Café"></td>
+                    <td><p> Cafe artesanal caliente</p></td>
+                    <td>$20</td>
+                </tr>  
+                </table>
+
+    <h1>Aperitivos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/07.jpg" alt="Pico de gallo"></td>
+            <td><p>Salsa hecha de aguacate, tomate, chile y cebolla </p></td>
+            <td>$21</td>
+        </tr>
+        <tr>
+             <td>
+                <img src="img/08.jpg" alt="Guacamole"></td>
+                <td><p>Salsa hecha de aguacate </p></td>
+                <td>$25</td>
+        </tr>
+        <tr>
+              <td><img src="img/09.jpg" alt="Elote"></td>
+              <td><p>Elote con mantequilla y aderezos</p></td>
+              <td>$26</td>
+                </tr>
+                <tr>
+                    <td><img src="img/010.jpg" alt="Quesadillas"></td>
+                    <td><p> Quesadilas de carne  </p></td>
+                    <td>$35</td>
+                    <tr>
+                        <td><img src="img/011.jpg" alt="Molletes"></td>
+                        <td><p>Molletes de frijol con queso y pico de gallo</p></td>
+                        <td>$38</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/12.jpg" alt="Botanas"></td>
+                        <td><p> Frituras</p></td>
+                        <td>$20</td>
+                    </tr>  
+                    </table>
+                    
+                    <h1>Platilos fuertes</h1>
+                    <table>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/13.jpg" alt="Pescado frito"></td>
+                            <td><p>Pescado frito acompañado con verduras </p></td>
+                            <td>$123</td>
+                        </tr>
+                        <tr>
+                             <td>
+                                <img src="img/14.jpg" alt="Pizza"></td>
+                                <td><p>Pizza itaiana con orila de queso </p></td>
+                                <td>$143</td>
+                            </tr>
+                            <tr>
+                                  <td><img src="img/15.jpg" alt="Pavo al horno"></td>
+                                  <td><p>Pavo horneado con mantequilla y especias, acompañado con pure de papa  </p></td>
+                                  <td>$187</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/16.jpg" alt="Carne asada"></td>
+                                        <td><p> Carne asada, termino a su preferiencia  </p></td>
+                                        <td>$135</td>
+                                        <tr>
+                                            <td><img src="img/17.jpg" alt="Tamales"></td>
+                                            <td><p>Tamales hechos que pollo y queso</p></td>
+                                            <td>$95</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/18.jpg" alt="Spagetti con albondigas"></td>
+                                            <td><p> Spagetti con salsa de tomate y albondigas</p></td>
+                                            <td>$87</td>
+                                        </tr>  
+                                        </table>
+
+                          <h1>Postres</h1>
+                    <table>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/19.jpg" alt="Pan de elote"></td>
+                            <td><p>Pan de elote recien horneado </p></td>
+                            <td>$46</td>
+                        </tr>
+                        <tr>
+                             <td>
+                                <img src="img/20.jpg" alt="Brownie"></td>
+                                <td><p>Hecho de chocolate y nueces </p></td>
+                                <td>$36</td>
+                            </tr>
+                            <td><img src="img/21.jpg" alt="Cheescake de mango"></td>
+                            <td><p> Hecho de mango y queso, lo mas cremoso </p></td>
+                            <td>$47</td>
+                              </tr>
+                              <tr>
+                                  <td><img src="img/22.jpg" alt="Helado de chocolate"></td>
+                                  <td><p>  Helado de chocolate con chispas de chocolate </p></td>
+                                  <td>$38</td>
+                                  <tr>
+                                      <td><img src="img/23.jpg" alt="Gelatina de mosaico"></td>
+                                      <td><p>Gelatina con diferentes sabores </p></td>
+                                      <td>$25</td>
+                                  </tr>
+                                  <tr>
+                                      <td><img src="img/24.jpg" alt="Pastel de vainilla"></td>
+                                      <td><p>Pastel de vainilla con fresa </p></td>
+                                      <td>$43</td>
+                                  </tr>  
+                                  </table>
+
+
+
+
+    
+
+</html>
